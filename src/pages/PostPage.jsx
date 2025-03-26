@@ -71,19 +71,9 @@ export default function PostPage() {
         </Button>
       </Link>
         {isVideo ? (
-            <video
-              src={post.image}
-              controls
-              autoPlay
-              loop
-              className="size-auto object-cover group-hover:h-[200px] transition-all duration-300 z-20 mx-auto"
-            />
+            <video src={post.image}controls autoPlay loop className="size-auto object-cover group-hover:h-[200px] transition-all duration-300 z-20 mx-auto"/>
           ) : isImage ? (
-            <img
-              src={post.image}
-              alt="post cover"
-              className="h-[260px] w-full object-cover group-hover:h-[200px] transition-all duration-300 z-20"
-            />
+            <img src={post.image} alt="post cover" className="h-fit w-96 object-cover group-hover:h-[200px] transition-all duration-300 z-20"/>
           ) : (
             <p className="text-center text-red-500">Unsupported media type</p>
           )}
@@ -93,13 +83,8 @@ export default function PostPage() {
           {post && (post.content.length / 1000).toFixed(0)} mins read
         </span>
       </div>
-      <div
-        className="max-w-7xl w-full text-sm font-medium text-grey-900 p-3 mx-auto post-content"
-        dangerouslySetInnerHTML={{ __html: post && post.content }}
-      ></div>
-
+      <div className="max-w-7xl w-full text-sm font-medium text-grey-900 p-3 mx-auto post-content" dangerouslySetInnerHTML={{ __html: post && post.content }}></div>
       <CommentSection postId={post._id} />
-
       </div>
       <div className="flex flex-col justify-center items-center mb-5">
         <h1 className="text-2xl font-medium text-gray-900 overpass underline ring-offset-8 mt-5">Recent articles</h1>
