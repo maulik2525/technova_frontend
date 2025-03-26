@@ -34,7 +34,6 @@ export default function About() {
               </div>
             </div>
           </div>
-            {/* <img src=".bannerimg.avif" alt="" className="absolute inset-0 object-cover opacity-50 w-full h-full"/> */}
         </section>
         <section className="w-full bg-[#edf5ff] py-8 sm:py-10 md:py-12 lg:py-16 xl:py-20 2xl:py-24">
             <div className="max-w-[1480px] w-full px-5 mx-auto">

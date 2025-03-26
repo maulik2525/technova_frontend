@@ -49,39 +49,37 @@ export default function Home() {
       </section>
       <section className="w-full bg-black py-10 sm:py12 md:py-14 lg:py-16 xl:py-20 2xl:py-24">
         <div className="max-w-[1480px] w-full px-5 mx-auto">
-          <div className="">
             <h3 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold lg:font-bold text-[#f65a8a] text-center">Featured Articles</h3>
-          </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 sm:gap-6 md:gap-7 lg:gap-8 xl:gap-9 2xl:gap-10 mt-16">
-            <div className="size-[400px] md:size-[400px] xl:size-[420px] bg-blue-50 flex items-center justify-center text-black text-center p-5 sm:p-6 md:p-8 lg:p-10 xl:p-12 mx-auto rainbow">
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 sm:gap-6 md:gap-7 lg:gap-8 xl:gap-9 2xl:gap-10 mt-8 sm:mt-10 md:mt-12 lg:mt-14 xl:mt-16">
+            <div className="size-[320px] sm:size-[380px] md:size-[400px] xl:size-[420px] bg-blue-50 flex items-center justify-center text-black text-center p-5 sm:p-6 md:p-8 lg:p-10 xl:p-12 mx-auto rainbow">
               <div className="space-y-3 lg:space-y-5">
                 <img src="/icon_01.png" alt="" className="size-10 lg:size-12 mx-auto mb-3 lg:mb-5"/>
                 <span className="text-lg md:text-xl lg:text-2xl font-semibold lg:font-bold mt-5">SaaS Landing Page Analysis</span>
                 <p className="text-sm md:text-base lg:text-lg font-medium">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some</p>
               </div>   
             </div>
-            <div className="size-[400px] md:size-[400px] xl:size-[420px] bg-blue-50 flex items-center justify-center text-black text-center p-5 sm:p-6 md:p-8 lg:p-10 xl:p-12 mx-auto rainbow">
+            <div className="size-[320px] sm:size-[380px] md:size-[400px] xl:size-[420px] bg-blue-50 flex items-center justify-center text-black text-center p-5 sm:p-6 md:p-8 lg:p-10 xl:p-12 mx-auto rainbow">
               <div className="space-y-3 lg:space-y-5">
                 <img src="/icon_01.png" alt="" className="size-10 lg:size-12 mx-auto mb-3 lg:mb-5"/>
                 <span className="text-lg md:text-xl lg:text-2xl font-semibold lg:font-bold mt-5">Build Designs That Scale</span>
                 <p className="text-sm md:text-base lg:text-lg font-medium">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some</p>
               </div>
             </div>
-            <div className="size-[400px] md:size-[400px] xl:size-[420px] bg-blue-50 flex items-center justify-center text-black text-center p-5 sm:p-6 md:p-8 lg:p-10 xl:p-12 mx-auto rainbow">
+            <div className="size-[320px] sm:size-[380px] md:size-[400px] xl:size-[420px] bg-blue-50 flex items-center justify-center text-black text-center p-5 sm:p-6 md:p-8 lg:p-10 xl:p-12 mx-auto rainbow">
               <div className="space-y-3 lg:space-y-5">
                 <img src="/icon_01.png" alt="" className="size-10 lg:size-12 mx-auto mb-3 lg:mb-5"/>
                 <span className="text-lg md:text-xl lg:text-2xl font-semibold lg:font-bold mt-5">UI/UX Design Based App</span>
                 <p className="text-sm md:text-base lg:text-lg font-medium">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some</p>
               </div>
             </div>
-            <div className="size-[400px] md:size-[400px] xl:size-[420px] bg-blue-50 flex items-center justify-center text-black text-center p-5 sm:p-6 md:p-8 lg:p-10 xl:p-12 mx-auto rainbow">
+            <div className="size-[320px] sm:size-[380px] md:size-[400px] xl:size-[420px] bg-blue-50 flex items-center justify-center text-black text-center p-5 sm:p-6 md:p-8 lg:p-10 xl:p-12 mx-auto rainbow">
               <div className="space-y-3 lg:space-y-5">
                 <img src="/icon_01.png" alt="" className="size-10 lg:size-12 mx-auto mb-3 lg:mb-5"/>
                 <span className="text-lg md:text-xl lg:text-2xl font-semibold lg:font-bold mt-5">Customer Support 24/7 hour</span>
                 <p className="text-sm md:text-base lg:text-lg font-medium">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some</p>
               </div>
             </div>
-            <div className="size-[400px] md:size-[400px] xl:size-[420px] bg-blue-50 flex items-center justify-center text-black text-center p-5 sm:p-6 md:p-8 lg:p-10 xl:p-12 mx-auto rainbow">
+            <div className="size-[320px] sm:size-[380px] md:size-[400px] xl:size-[420px] bg-blue-50 flex items-center justify-center text-black text-center p-5 sm:p-6 md:p-8 lg:p-10 xl:p-12 mx-auto rainbow">
               <div className="space-y-3 lg:space-y-5">
                 <img src="/icon_01.png" alt="" className="size-10 lg:size-12 mx-auto mb-3 lg:mb-5"/>
                 <span className="text-lg md:text-xl lg:text-2xl font-semibold lg:font-bold mt-5">Best Online Security Services</span>
@@ -89,7 +87,7 @@ export default function Home() {
               </div>
             </div>
             <div className="">
-              <div className="size-[400px] md:size-[400px] xl:size-[420px] bg-blue-50 flex items-center justify-center text-black text-center p-5 sm:p-6 md:p-8 lg:p-10 xl:p-12 mx-auto rainbow">
+              <div className="size-[320px] sm:size-[380px] md:size-[400px] xl:size-[420px] bg-blue-50 flex items-center justify-center text-black text-center p-5 sm:p-6 md:p-8 lg:p-10 xl:p-12 mx-auto rainbow">
                 <div className="space-y-3 lg:space-y-5">
                   <img src="/icon_01.png" alt="" className="size-10 lg:size-12 mx-auto mb-3 lg:mb-5"/>
                   <span className="text-lg md:text-xl lg:text-2xl font-semibold lg:font-bold mt-5">Customise Your Workflow</span>
@@ -107,21 +105,35 @@ export default function Home() {
               <h3 className="text-2xl md:text-3xl lg:ext-4xl xl:text-5xl font-bold text-white mt-5">We Provide Awesome Bloging</h3>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mt-20">
-              <div className="relative border-2 border-white pulse mx-auto"  style={{
-                    clipPath: "polygon(75% 1%, 100% 25%, 100% 100%, 0 100%, 0 0)",
-                  }}>
+              <div className="relative border-2 border-white pulse mx-auto" style={{clipPath: "polygon(75% 1%, 100% 25%, 100% 100%, 0 100%, 0 0)",}}>
+               <div className="flex justify-center items-center bg-black">
+                <img src="/maulik.jpg" alt="Clipped" className="w-fit object-cover bg-center"/>
+                <span className="block absolute inset-0 border-white pulse"></span>
+              </div>
+                <div className="absolute bottom-0 right-0 group-hover:block w-full bg-white py-4 space-y-5">
+                  <div className=" text-center">
+                    <h4 className="text-xl font-medium">Maulik A. Kamani</h4>
+                    <p className="text-base font-medium">Founder</p>
+                  </div>
+                  <div className="group hidden">
+                    <div className="flex justify-center space-x-5">
+                      <svg className="size-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155.139 155.139" fill="currentColor" > <path d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761h28.48z" /> </svg>
+                      <svg className="size-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155.139 155.139" fill="currentColor" > <path d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761h28.48z" /> </svg>
+                      <svg className="size-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155.139 155.139" fill="currentColor" > <path d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761h28.48z" /> </svg>
+                      <svg className="size-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155.139 155.139" fill="currentColor" > <path d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761h28.48z" /> </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="relative border-2 border-white pulse mx-auto"  style={{clipPath: "polygon(75% 1%, 100% 25%, 100% 100%, 0 100%, 0 0)",}}>
               <div className="flex justify-center items-center bg-black">
-                <img
-                  src="/tm1.jpg" 
-                  alt="Clipped"
-                  className="w-fit object-cover bg-center"
-                />
+                <img src="/vansh_co_founder.png" alt="Clipped" className="w-fit object-cover bg-center"/>
                 <span className="block absolute inset-0 border-white pulse"></span>
               </div>       
                 <div className="absolute bottom-0 right-0 group-hover:block w-full bg-white  py-4 space-y-5">
                   <div className=" text-center">
-                    <h4 className="text-xl font-medium">Wallace S. Camacho</h4>
-                    <p className="text-base font-medium">Business Manager</p>
+                    <h4 className="text-xl font-medium">Vansh A. Sanklecha</h4>
+                    <p className="text-base font-medium">co_Founder</p>
                   </div>
                   <div className=" group-hover:block cursor-pointer">
                     <div className="hidden group">
@@ -136,46 +148,14 @@ export default function Home() {
 
                 </div>
               </div>
-              <div className="relative border-2 border-white pulse mx-auto" style={{
-                    clipPath: "polygon(75% 1%, 100% 25%, 100% 100%, 0 100%, 0 0)",
-                  }}>
-               <div className="flex justify-center items-center bg-black">
-                <img
-                  src="/maulik.jpg" 
-                  alt="Clipped"
-                  className="w-fit object-cover bg-center"
-                />
-                <span className="block absolute inset-0 border-white pulse"></span>
-              </div>
-                <div className="absolute bottom-0 right-0 group-hover:block w-full bg-white py-4 space-y-5">
-                  <div className=" text-center">
-                    <h4 className="text-xl font-medium">Maulik A. Kamani</h4>
-                    <p className="text-base font-medium">Business Manager</p>
-                  </div>
-                  <div className="group hidden">
-                    <div className="flex justify-center space-x-5">
-                      <svg className="size-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155.139 155.139" fill="currentColor" > <path d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761h28.48z" /> </svg>
-                      <svg className="size-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155.139 155.139" fill="currentColor" > <path d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761h28.48z" /> </svg>
-                      <svg className="size-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155.139 155.139" fill="currentColor" > <path d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761h28.48z" /> </svg>
-                      <svg className="size-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155.139 155.139" fill="currentColor" > <path d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761h28.48z" /> </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="relative border-2 border-white pulse mx-auto" style={{
-                    clipPath: "polygon(75% 1%, 100% 25%, 100% 100%, 0 100%, 0 0)",
-                  }}>
+              <div className="relative border-2 border-white pulse mx-auto" style={{clipPath: "polygon(75% 1%, 100% 25%, 100% 100%, 0 100%, 0 0)",}}>
                 <div className="flex justify-center items-center bg-black">
-                  <img
-                    src="/tm1.jpg" 
-                    alt="Clipped"
-                    className="w-fit object-cover bg-center"
-                  />
+                  <img src="/kenil_ceo.png" alt="Clipped" className="w-fit object-cover bg-center"/>
                   <span className="block absolute inset-0 border-white pulse"></span>
                 </div>     
                 <div className="absolute bottom-0 right-0 group-hover:block w-full bg-white py-4 space-y-5">
                   <div className=" text-center">
-                    <h4 className="text-xl font-medium">Wallace S. Camacho</h4>
+                    <h4 className="text-xl font-medium">Kenil S. Kakadiya</h4>
                     <p className="text-base font-medium">Business Manager</p>
                   </div>
                   <div className="group hidden">
@@ -188,21 +168,15 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="relative border-2 border-white pulse mx-auto"style={{
-                    clipPath: "polygon(75% 1%, 100% 25%, 100% 100%, 0 100%, 0 0)",
-                  }}>
+              <div className="relative border-2 border-white pulse mx-auto"style={{clipPath: "polygon(75% 1%, 100% 25%, 100% 100%, 0 100%, 0 0)",}}>
                 <div className="flex justify-center items-center bg-black">
-                  <img
-                    src="/tm4.jpg" 
-                    alt="Clipped"
-                    className="w-fit object-cover bg-center"
-                  />
+                  <img src="/tm1.jpg"  alt="Clipped" className="w-fit object-cover bg-center"/>
                   <span className="block absolute inset-0 border-white pulse"></span>
                 </div>
                 <div className="absolute bottom-0 right-0 group-hover:block w-full bg-white py-4 space-y-5">
                   <div className=" text-center">
                     <h4 className="text-xl font-medium">Wallace S. Camacho</h4>
-                    <p className="text-base font-medium">Business Manager</p>
+                    <p className="text-base font-medium">project Manager</p>
                   </div>
                   <div className="group hidden">
                     <div className="flex justify-center space-x-5">
@@ -248,7 +222,6 @@ export default function Home() {
                   <button type="button" className="text-sm lg:text-base font-medium lg:font-semibold text-white hover:text-[#2aceb6] bg-transparent hover:bg-white border-2 border-white rounded-md hover:rounded-full duration-700 transition-all px-10 py-2">Let's Talk</button>
               </div>
             </div>
-          {/* <img src="/bg.jpg" alt="" className="absolute inset-0 w-full h-full opacity-10 object-fill"/> */}
         </div>
       </section>
       <section className="relative w-full bg-blue-100 py-10 sm:py12 md:py-14 lg:py-16 xl:py-20 2xl:py-24">

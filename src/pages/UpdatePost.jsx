@@ -127,7 +127,7 @@ export default function UpdatePost() {
           <img
             src={formData.image}
             alt="upload"
-            className="w-full h-72 object-cover"
+            className="w-full h-auto object-cover"
           />
         )}
 
@@ -142,7 +142,7 @@ export default function UpdatePost() {
 
         <Button
           type="submit"
-          className="w-40 text-sm lg:text-base font-medium montserrat text-gray-800 hover:text-white mx-auto"
+          className="w-40 text-sm lg:text-base font-medium montserrat text-gray-800 hover:text-white bg-white hover:bg-gray-800 border border- duration-1000 transition-all mx-auto"
           outline
           disabled={loading || imageFileUploading}
         >
