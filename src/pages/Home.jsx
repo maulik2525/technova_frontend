@@ -49,48 +49,48 @@ export default function Home() {
       </section>
       <section className="w-full bg-black py-10 sm:py12 md:py-14 lg:py-16 xl:py-20 2xl:py-24">
         <div className="max-w-[1480px] w-full px-5 mx-auto">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold lg:font-bold text-[#f65a8a] text-center">Featured Articles</h3>
+          <h3 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold lg:font-bold text-[#f65a8a] text-center">Featured Articles</h3>
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 sm:gap-6 md:gap-7 lg:gap-8 xl:gap-9 2xl:gap-10 mt-8 sm:mt-10 md:mt-12 lg:mt-14 xl:mt-16">
-            <div className="size-[320px] sm:size-[380px] md:size-[400px] xl:size-[420px] bg-blue-50 flex items-center justify-center text-black text-center p-5 sm:p-6 md:p-8 lg:p-10 xl:p-12 mx-auto rainbow">
+            <div className="size-[300px] sm:size-[380px] md:size-[400px] xl:size-[420px] bg-blue-50 text-black text-center p-4 sm:p-5 md:p-6 lg:p-8 xl:p-10 2xl:p-12 mx-auto rainbow">
               <div className="space-y-3 lg:space-y-5">
-                <img src="/icon_01.png" alt="" className="size-10 lg:size-12 mx-auto mb-3 lg:mb-5"/>
+                <img src="/icon_01.png" alt="" className="size-10 lg:size-12 mx-auto mb-3 sm:mb-3.5 md:mb-4 lg:mb-5"/>
                 <span className="text-lg md:text-xl lg:text-2xl font-semibold lg:font-bold mt-5">SaaS Landing Page Analysis</span>
                 <p className="text-sm md:text-base lg:text-lg font-medium">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some</p>
               </div>   
             </div>
-            <div className="size-[320px] sm:size-[380px] md:size-[400px] xl:size-[420px] bg-blue-50 flex items-center justify-center text-black text-center p-5 sm:p-6 md:p-8 lg:p-10 xl:p-12 mx-auto rainbow">
-              <div className="space-y-3 lg:space-y-5">
-                <img src="/icon_01.png" alt="" className="size-10 lg:size-12 mx-auto mb-3 lg:mb-5"/>
-                <span className="text-lg md:text-xl lg:text-2xl font-semibold lg:font-bold mt-5">Build Designs That Scale</span>
+            <div className="size-[300px] sm:size-[380px] md:size-[400px] xl:size-[420px] bg-blue-50 text-black text-center p-4 sm:p-5 md:p-6 lg:p-8 xl:p-10 2xl:p-12 mx-auto rainbow">
+              <div className="space-y-2.5 sm:space-y-3 md:space-y-4 lg:space-y-5">
+                <img src="/icon_01.png" alt="" className="size-10 lg:size-12 mx-auto mb-3 sm:mb-3.5 md:mb-4 lg:mb-5"/>
+                <span className="text-lg md:text-xl lg:text-2xl font-semibold lg:font-bold mt-3 sm:mt-3.5 md:mt-4 lg:mt-5">Build Designs That Scale</span>
                 <p className="text-sm md:text-base lg:text-lg font-medium">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some</p>
               </div>
             </div>
-            <div className="size-[320px] sm:size-[380px] md:size-[400px] xl:size-[420px] bg-blue-50 flex items-center justify-center text-black text-center p-5 sm:p-6 md:p-8 lg:p-10 xl:p-12 mx-auto rainbow">
-              <div className="space-y-3 lg:space-y-5">
-                <img src="/icon_01.png" alt="" className="size-10 lg:size-12 mx-auto mb-3 lg:mb-5"/>
-                <span className="text-lg md:text-xl lg:text-2xl font-semibold lg:font-bold mt-5">UI/UX Design Based App</span>
+            <div className="size-[300px] sm:size-[380px] md:size-[400px] xl:size-[420px] bg-blue-50 text-black text-center p-4 sm:p-5 md:p-6 lg:p-8 xl:p-10 2xl:p-12 mx-auto rainbow">
+              <div className="space-y-2.5 sm:space-y-3 md:space-y-4 lg:space-y-5">
+                <img src="/icon_01.png" alt="" className="size-10 lg:size-12 mx-auto mb-3 sm:mb-3.5 md:mb-4 lg:mb-5"/>
+                <span className="text-lg md:text-xl lg:text-2xl font-semibold lg:font-bold mt-3 sm:mt-3.5 md:mt-4 lg:mt-5">UI/UX Design Based App</span>
                 <p className="text-sm md:text-base lg:text-lg font-medium">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some</p>
               </div>
             </div>
-            <div className="size-[320px] sm:size-[380px] md:size-[400px] xl:size-[420px] bg-blue-50 flex items-center justify-center text-black text-center p-5 sm:p-6 md:p-8 lg:p-10 xl:p-12 mx-auto rainbow">
-              <div className="space-y-3 lg:space-y-5">
-                <img src="/icon_01.png" alt="" className="size-10 lg:size-12 mx-auto mb-3 lg:mb-5"/>
-                <span className="text-lg md:text-xl lg:text-2xl font-semibold lg:font-bold mt-5">Customer Support 24/7 hour</span>
+            <div className="size-[300px] sm:size-[380px] md:size-[400px] xl:size-[420px] bg-blue-50 text-black text-center p-4 sm:p-5 md:p-6 lg:p-8 xl:p-10 2xl:p-12 mx-auto rainbow">
+              <div className="space-y-2.5 sm:space-y-3 md:space-y-4 lg:space-y-5">
+                <img src="/icon_01.png" alt="" className="size-10 lg:size-12 mx-auto mb-3 sm:mb-3.5 md:mb-4 lg:mb-5"/>
+                <span className="text-lg md:text-xl lg:text-2xl font-semibold lg:font-bold mt-3 sm:mt-3.5 md:mt-4 lg:mt-5">Customer Support 24/7 hour</span>
                 <p className="text-sm md:text-base lg:text-lg font-medium">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some</p>
               </div>
             </div>
-            <div className="size-[320px] sm:size-[380px] md:size-[400px] xl:size-[420px] bg-blue-50 flex items-center justify-center text-black text-center p-5 sm:p-6 md:p-8 lg:p-10 xl:p-12 mx-auto rainbow">
-              <div className="space-y-3 lg:space-y-5">
-                <img src="/icon_01.png" alt="" className="size-10 lg:size-12 mx-auto mb-3 lg:mb-5"/>
-                <span className="text-lg md:text-xl lg:text-2xl font-semibold lg:font-bold mt-5">Best Online Security Services</span>
+            <div className="size-[300px] sm:size-[380px] md:size-[400px] xl:size-[420px] bg-blue-50 text-black text-center p-4 sm:p-5 md:p-6 lg:p-8 xl:p-10 2xl:p-12 mx-auto rainbow">
+              <div className="space-y-2.5 sm:space-y-3 md:space-y-4 lg:space-y-5">
+                <img src="/icon_01.png" alt="" className="size-10 lg:size-12 mx-auto mb-3 sm:mb-3.5 md:mb-4 lg:mb-5"/>
+                <span className="text-lg md:text-xl lg:text-2xl font-semibold lg:font-bold mt-3 sm:mt-3.5 md:mt-4 lg:mt-5">Best Online Security Services</span>
                 <p className="text-sm md:text-base lg:text-lg font-medium">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some</p>
               </div>
             </div>
             <div className="">
-              <div className="size-[320px] sm:size-[380px] md:size-[400px] xl:size-[420px] bg-blue-50 flex items-center justify-center text-black text-center p-5 sm:p-6 md:p-8 lg:p-10 xl:p-12 mx-auto rainbow">
-                <div className="space-y-3 lg:space-y-5">
-                  <img src="/icon_01.png" alt="" className="size-10 lg:size-12 mx-auto mb-3 lg:mb-5"/>
-                  <span className="text-lg md:text-xl lg:text-2xl font-semibold lg:font-bold mt-5">Customise Your Workflow</span>
+              <div className="size-[300px] sm:size-[380px] md:size-[400px] xl:size-[420px] bg-blue-50 text-black text-center p-4 sm:p-5 md:p-6 lg:p-8 xl:p-10 2xl:p-12 mx-auto rainbow">
+                <div className="space-y-2.5 sm:space-y-3 md:space-y-4 lg:space-y-5">
+                  <img src="/icon_01.png" alt="" className="size-10 lg:size-12 mx-auto mb-3 sm:mb-3.5 md:mb-4 lg:mb-5"/>
+                  <span className="text-lg md:text-xl lg:text-2xl font-semibold lg:font-bold mt-3 sm:mt-3.5 md:mt-4 lg:mt-5">Customise Your Workflow</span>
                   <p className="text-sm md:text-base lg:text-lg font-medium">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some</p>
                 </div>
               </div>
@@ -100,7 +100,7 @@ export default function Home() {
       </section>
       <section className="w-full bg-[#2a4862] py-10 sm:py12 md:py-14 lg:py-16 xl:py-20 2xl:py-24">
         <div className="max-w-[1480px] w-full px-5 mx-auto">
-            <div className="text-center" data-aos="flip-left" data-aos-duration="1500">
+            <div className="text-center">
               <span className="text-base lg:text-lg font-medium text-[#f65a8a] uppercase border-b-2 border-white ps-2 pe-2">How can help you</span>
               <h3 className="text-2xl md:text-3xl lg:ext-4xl xl:text-5xl font-bold text-white mt-5">We Provide Awesome Bloging</h3>
             </div>
@@ -131,7 +131,7 @@ export default function Home() {
                 <span className="block absolute inset-0 border-white pulse"></span>
               </div>       
                 <div className="absolute bottom-0 right-0 group-hover:block w-full bg-white  py-4 space-y-5">
-                  <div className=" text-center">
+                  <div className="text-center">
                     <h4 className="text-xl font-medium">Vansh A. Sanklecha</h4>
                     <p className="text-base font-medium">co_Founder</p>
                   </div>

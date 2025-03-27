@@ -69,7 +69,7 @@ export default function DashboardComp() {
   return (
     <div className="w-full p-3 md:mx-auto mt-36">
       <div className="flex-wrap flex gap-8 lg:gap-10 justify-center">
-        <div className="flex flex-col p-3 w-1/2 lg:w-1/3 xl:w-1/4 border border-gray-200 rounded-md shadow-md hover:shadow-lg ">
+        <div className="flex flex-col p-3 w-full sm:w-1/2 lg:w-1/3  border border-gray-200 rounded-md shadow-md hover:shadow-lg ">
           <div className="flex justify-between">
             <div className="">
               <h3 className="text-gray-500 text-md uppercase">Total Users</h3>
@@ -85,7 +85,7 @@ export default function DashboardComp() {
             <div className="text-gray-500">Last month</div>
           </div>
         </div>
-        <div className="flex flex-col p-3 w-1/2 lg:w-1/3 xl:w-1/4 border border-gray-200 rounded-md shadow-md hover:shadow-lg">
+        <div className="flex flex-col p-3 w-full sm:w-1/2 lg:w-1/3 border border-gray-200 rounded-md shadow-md hover:shadow-lg">
           <div className="flex justify-between">
             <div className="">
               <h3 className="text-gray-500 text-md uppercase">
@@ -103,7 +103,7 @@ export default function DashboardComp() {
             <div className="text-gray-500">Last month</div>
           </div>
         </div>
-        <div className="flex flex-col p-3 w-1/2 lg:w-1/3 xl:w-1/4 border border-gray-200 rounded-md shadow-md hover:shadow-lg">
+        <div className="flex flex-col p-3 w-full sm:w-1/2 lg:w-1/3 border border-gray-200 rounded-md shadow-md hover:shadow-lg">
           <div className="flex justify-between">
             <div className="">
               <h3 className="text-gray-500 text-md uppercase">Total Posts</h3>
@@ -200,6 +200,7 @@ export default function DashboardComp() {
               <Link to={"/dashboard?tab=posts"}>See all</Link>
             </Button>
           </div>
+          <div className="overflow-auto">
           <Table hoverable>
             <Table.Head>
               <Table.HeadCell className="border">Post image</Table.HeadCell>
@@ -227,6 +228,7 @@ export default function DashboardComp() {
                 </Table.Body>
               ))}
           </Table>
+          </div>
         </div>
       </div>
     </div>

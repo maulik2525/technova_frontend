@@ -54,6 +54,48 @@ export default function Header() {
               />
             </a>
           </div>
+          
+          <Navbar.Collapse>
+              <Navbar.Link
+                active={path === "/"}
+                as="div"
+                className="text-base 2xl:text-lg font-medium text-gray-800 hover:border border fraunces"
+              >
+                <Link to="/">Home</Link>
+              </Navbar.Link>
+              <Navbar.Link
+                active={path === "/about"}
+                as="div"
+                className="text-base 2xl:text-lg font-medium text-gray-800 fraunces"
+              >
+                <Link to="/about">About</Link>
+              </Navbar.Link>
+              {currentUser && (
+                <Navbar.Link
+                  active={path === "/create-post"}
+                  as="div"
+                  className="text-base 2xl:text-lg font-medium text-gray-800 fraunces"
+                >
+                  <Link to="/create-post">Create Blog</Link>
+                </Navbar.Link>
+              )}
+              <Navbar.Link
+                active={path === "/search"}
+                as="div"
+                className="text-base 2xl:text-lg font-medium text-gray-800 fraunces"
+              >
+                <Link to="/search">All Blogs</Link>
+              </Navbar.Link>             
+              {currentUser?.isAdmin && (
+                <Navbar.Link
+                  active={path === "/dashboard"}
+                  as="div"
+                  className="text-base 2xl:text-lg font-medium text-gray-800 fraunces"
+                >
+                  <Link to="/dashboard?tab=dash">Admin Dashboard</Link>
+                </Navbar.Link>
+              )}
+          </Navbar.Collapse>
           <form
             onSubmit={handleSubmit}
             className="hidden lg:flex items-center gap-2 w-full max-w-40"
@@ -62,7 +104,7 @@ export default function Header() {
               type="text"
               placeholder="Search articles..."
               rightIcon={AiOutlineSearch}
-              className="text base font-medium text-gray-800 montserrat"
+              className="w-full text base font-medium text-gray-800 montserrat outline-none"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
@@ -106,53 +148,6 @@ export default function Header() {
             )}
             <Navbar.Toggle />
           </div>
-          <Navbar.Collapse>
-                {/* <Navbar.Link
-                  active={path ==="/syper.jsx" }
-                  as="div"
-                  className="text-base 2xl:text-lg font-medium text-gray-800 fraunces">
-                    <Link to="/syper">swiper</Link>
-                </Navbar.Link> */}
-              <Navbar.Link
-                active={path === "/"}
-                as="div"
-                className="text-base 2xl:text-lg font-medium text-gray-800 fraunces"
-              >
-                <Link to="/">Home</Link>
-              </Navbar.Link>
-              <Navbar.Link
-                active={path === "/about"}
-                as="div"
-                className="text-base 2xl:text-lg font-medium text-gray-800 fraunces"
-              >
-                <Link to="/about">About</Link>
-              </Navbar.Link>
-              {currentUser && (
-                <Navbar.Link
-                  active={path === "/create-post"}
-                  as="div"
-                  className="text-base 2xl:text-lg font-medium text-gray-800 fraunces"
-                >
-                  <Link to="/create-post">Create Blog</Link>
-                </Navbar.Link>
-              )}
-              <Navbar.Link
-                active={path === "/search"}
-                as="div"
-                className="text-base 2xl:text-lg font-medium text-gray-800 fraunces"
-              >
-                <Link to="/search">All Blogs</Link>
-              </Navbar.Link>             
-              {currentUser?.isAdmin && (
-                <Navbar.Link
-                  active={path === "/dashboard"}
-                  as="div"
-                  className="text-base 2xl:text-lg font-medium text-gray-800 fraunces"
-                >
-                  <Link to="/dashboard?tab=dash">Admin Dashboard</Link>
-                </Navbar.Link>
-              )}
-          </Navbar.Collapse>
     </Navbar>
   );
 }
