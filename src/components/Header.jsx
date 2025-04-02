@@ -44,85 +44,41 @@ export default function Header() {
   };
 
   return (
-    <Navbar className="fixed top-0 left-0 z-50 w-full border-b-2 bg-white dark:bg-gray-900 shadow-sm">
+    <Navbar className=" z-50 w-full border-b-2 bg-white dark:bg-gray-900 shadow-sm">
           <div className="relative z-50 flex items-center gap-2">
             <a href="/">
-              <img
-                src="/logo3.jpg"
-                alt="TechNova Logo"
-                className="size-16 rounded-full"
+              <img src="/logo3.jpg" alt="TechNova Logo" className="size-16 rounded-full"
               />
             </a>
           </div>
           
           <Navbar.Collapse>
-              <Navbar.Link
-                active={path === "/"}
-                as="div"
-                className="text-base 2xl:text-lg font-medium text-gray-800 hover:border border fraunces"
-              >
+              <Navbar.Link active={path === "/"} as="div" className="text-base 2xl:text-lg font-medium text-gray-800 hover:border border fraunces" >
                 <Link to="/">Home</Link>
               </Navbar.Link>
-              <Navbar.Link
-                active={path === "/about"}
-                as="div"
-                className="text-base 2xl:text-lg font-medium text-gray-800 fraunces"
-              >
+              <Navbar.Link active={path === "/about"} as="div" className="text-base 2xl:text-lg font-medium text-gray-800 fraunces">
                 <Link to="/about">About</Link>
               </Navbar.Link>
               {currentUser && (
-                <Navbar.Link
-                  active={path === "/create-post"}
-                  as="div"
-                  className="text-base 2xl:text-lg font-medium text-gray-800 fraunces"
-                >
+                <Navbar.Link active={path === "/create-post"} as="div" className="text-base 2xl:text-lg font-medium text-gray-800 active:border-b-2 border-teal-700 fraunces">
                   <Link to="/create-post">Create Blog</Link>
                 </Navbar.Link>
               )}
-              <Navbar.Link
-                active={path === "/search"}
-                as="div"
-                className="text-base 2xl:text-lg font-medium text-gray-800 fraunces"
-              >
+              <Navbar.Link active={path === "/search"} as="div" className="text-base 2xl:text-lg font-medium text-gray-800 fraunces">
                 <Link to="/search">All Blogs</Link>
               </Navbar.Link>             
               {currentUser?.isAdmin && (
-                <Navbar.Link
-                  active={path === "/dashboard"}
-                  as="div"
-                  className="text-base 2xl:text-lg font-medium text-gray-800 fraunces"
-                >
+                <Navbar.Link active={path === "/dashboard"} as="div" className="text-base 2xl:text-lg font-medium text-gray-800 fraunces" >
                   <Link to="/dashboard?tab=dash">Admin Dashboard</Link>
                 </Navbar.Link>
               )}
           </Navbar.Collapse>
-          <form
-            onSubmit={handleSubmit}
-            className="hidden lg:flex items-center gap-2 w-full max-w-40"
-          >
-            <TextInput
-              type="text"
-              placeholder="Search articles..."
-              rightIcon={AiOutlineSearch}
-              className="w-full text base font-medium text-gray-800 montserrat outline-none"
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-            />
+          <form onSubmit={handleSubmit} className="hidden lg:flex items-center gap-2 w-full max-w-40">
+            <TextInput type="text" placeholder="Search articles..." rightIcon={AiOutlineSearch} className="w-full text base font-medium text-gray-800 montserrat outline-none" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)}/>
           </form>
           <div className="flex items-center gap-4 md:order-2">
             {currentUser ? (
-              <Dropdown
-                arrowIcon={false}
-                inline
-                label={
-                  <Avatar
-                    alt="user"
-                    img={currentUser.profilePicture || "/default-avatar.png"}
-                    rounded
-                    className="cursor-pointer"
-                  />
-                }
-              >
+              <Dropdown arrowIcon={false} inline label={ <Avatar alt="user" img={currentUser.profilePicture || "/default-avatar.png"} rounded className="cursor-pointer"/>}>
                 <Dropdown.Header>
                   <span className="block text-sm font-semibold text-gray-800 dark:text-white">
                     @{currentUser.username}
@@ -139,11 +95,7 @@ export default function Header() {
               </Dropdown>
             ) : (
               <Link to="/sign-in">
-                <Button gradientDuoTone="purpleToBlue" 
-                className="montserrat text-base font-medium bg-gradient-to-r from-[#2aceb6] to-blue-400 border border-transparent hover:bg-white"
-                outline>
-                  Sign In
-                </Button>
+                <Button gradientDuoTone="purpleToBlue" className="montserrat text-base font-medium bg-gradient-to-r from-[#2aceb6] to-blue-400 border border-transparent hover:bg-white"outline>Sign In</Button>
               </Link>
             )}
             <Navbar.Toggle />

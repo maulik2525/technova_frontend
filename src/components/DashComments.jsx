@@ -72,7 +72,7 @@ export default function DashComments() {
   };
 
   return (
-    <div className="w-full py-24 sm:py-24 md:py-28 lg:py-32 xl:py-36 2xl:py-40">
+    <div className="w-full py-5">
       <div className="max-w-[1480px] w-full px-0 mx-auto">
         <div className="flex">
             <form className="max-w-sm lg:max-w-md w-full ml-auto">   

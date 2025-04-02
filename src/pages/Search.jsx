@@ -100,7 +100,7 @@ export default function Search() {
     }
   };
   return (
-    <div className="w-full py-24">
+    <div className="w-full">
       <div className="max-w-[1480px] w-full px-5 mx-auto">
         <div className=''>
           <div className='p-7 w-full shadow-md my-3'>

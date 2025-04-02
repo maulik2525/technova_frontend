@@ -75,15 +75,12 @@ export default function DashPosts() {
   };
 
   return (
-    <div className="w-full py-24 sm:py-24 md:py-28 lg:py-32 xl:py-36 2xl:py-40">
+    <div className="w-full ">
       <div className="max-w-[1480px] w-full mx-auto px-5">
         <div className="flex justify-end">
           <form className="max-w-sm lg:max-w-md w-full ml-auto">   
             <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
             <div className="relative">
-              <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-                <svg className="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" > <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" /> </svg>
-              </div>
               <input type="search" id="default-search" className="block w-full p-3 lg:p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 outline-none" placeholder="Search post . . ." required />
               <button type="submit" className="text-sm lg:text-base font-medium rounded-lg text-white hover:text-blue-800 absolute end-2 bottom-1 lg:bottom-2 bg-blue-500 hover:bg-transparent border border-blue-500 hover:border-b-4 hover:border-r-4 duration-500 transition-all px-3 lg:px-4 py-1.5 lg:py-2 ">Search</button>
             </div>

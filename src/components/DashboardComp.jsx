@@ -67,7 +67,7 @@ export default function DashboardComp() {
     }
   }, [currentUser]);
   return (
-    <div className="w-full p-3 md:mx-auto mt-36">
+    <div className="w-full py-5 md:py-10">
       <div className="flex-wrap flex gap-8 lg:gap-10 justify-center">
         <div className="flex flex-col p-3 w-full sm:w-1/2 lg:w-1/3  border border-gray-200 rounded-md shadow-md hover:shadow-lg ">
           <div className="flex justify-between">

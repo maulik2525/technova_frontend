@@ -16,8 +16,8 @@ export default function FooterCom() {
                 <Footer.Title title="Explore" className="text-base md:text-lg font-medium fraunces text-white underline"/>
                 <Footer.LinkGroup col>
                   <Footer.Link href="/" className="text-sm lg:text-base font-medium text-white montserrat hover:text-teal-500">My Feed</Footer.Link>
-                  <Footer.Link href="/CreatePost.jsx" className="text-sm lg:text-base font-medium text-white montserrat hover:text-teal-500">New Blog</Footer.Link>
-                  <Footer.Link href="/frontend-new/src/pages/Search.jsx" className="text-sm lg:text-base font-medium text-white montserrat hover:text-teal-500">Official Blog</Footer.Link>
+                  <Footer.Link href="/CreatePost" className="text-sm lg:text-base font-medium text-white montserrat hover:text-teal-500">New Blog</Footer.Link>
+                  <Footer.Link href="/Search" className="text-sm lg:text-base font-medium text-white montserrat hover:text-teal-500">Official Blog</Footer.Link>
                 </Footer.LinkGroup>
               </div>
 
